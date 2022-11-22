@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'rcl-angular-data-urbalab';
+  mensaje='';
+
+  actualizar(t:any) {
+    this.mensaje = t + '(se actualiza cada 10 segundos)';
+  }
 }
